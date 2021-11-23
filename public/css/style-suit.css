@@ -1,0 +1,207 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.games-page {
+    background-color: #9C835F;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+.back {
+    width: 1.3rem;
+}
+
+.logo {
+    width: 2.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+nav {
+    background: transparent;
+    padding-left: 1.5rem;
+}
+
+.txt-games h1 {
+    font-size: 6rem;
+}
+
+.txt-games h2 {
+    font-size: 2rem;
+}
+
+.com-win h2 {
+    padding-top: 1rem;
+}
+
+.draw h2 {
+    padding-top: 0.6rem;
+}
+
+.txt-games {
+    margin-top: 10rem;
+}
+
+.txt-games button {
+    text-decoration: none;
+    font-size: 2.4rem;
+    position: fixed;
+    margin-top: 3rem;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.batu {
+    width: 80%;
+    height: 70%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kertas {
+    width: 70%;
+    height: 80%;
+    margin-top: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gunting {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.games {
+    padding-top: 5rem;
+}
+
+.rock-paper {
+    font-size: 1.5rem;
+}
+
+.active {
+    background-color: #C4C4C4 !important;
+    border-radius: 1rem !important;
+    padding: 0 !important;
+}
+
+.pilih {
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+}
+
+.win {
+    background-color: #4C9654;
+    border-radius: 0.5rem;
+    transform: rotate(-28.87deg);
+    width: 10rem;
+    height: 6rem;
+}
+
+.draw {
+    background-color: #035B0C;
+    border-radius: 0.5rem;
+    transform: rotate(-28.87deg);
+    width: 9rem;
+    height: 6rem;
+}
+
+.hasilGame {
+    margin-top: 6rem;
+}
+
+
+/* button {
+    outline: none;
+    background: none;
+    border: none;
+} */
+
+@media (max-width: 576px) {
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    .games {
+        margin-top: re1m;
+    }
+    .win {
+        background-color: #4C9654;
+        border-radius: 0.5rem;
+        transform: rotate(-28.87deg);
+        width: 4.8rem;
+        height: 4rem;
+        margin-right: 0.4rem;
+    }
+    .draw {
+        background-color: #035B0C;
+        border-radius: 0.5rem;
+        transform: rotate(-28.87deg);
+        width: 4.5rem;
+        height: 3.5rem;
+        margin-right: 0.3rem;
+    }
+    .player-win h2 {
+        font-size: 0.9rem;
+        padding-top: 0.4rem;
+    }
+    .hasilGame {
+        margin-top: 5rem;
+    }
+    .draw h2 {
+        font-size: 1rem;
+        padding-top: 0;
+    }
+    .com-win h2 {
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+    .txt-games h1 {
+        font-size: 3rem;
+    }
+    .batu {
+        width: 68%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+    .kertas {
+        width: 68%;
+        height: 70%;
+        margin-top: 1rem;
+    }
+    .gunting {
+        width: 68%;
+        height: 70%;
+        margin-top: 1rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .logo {
+        width: 2.4rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .pilih {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
+    }
+    .txt-games button {
+        margin-top: 2.6rem;
+    }
+    nav {
+        padding-left: 1rem;
+    }
+}

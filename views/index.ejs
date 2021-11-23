@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include("./partial/head.ejs") %>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-light fixed-top pt-3">
+
+            <a href="#" class="navbar-brand mb-2 fs-4 mt-1 text-white fw-bold logo-game">LOGO</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+                    <li class=" nav-item">
+                        <a href="# " class="nav-link nav-font text-white ">HOME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="# " class="nav-link nav-font text-white ">WORK</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="# " class="nav-link nav-font text-white ">CONTACT</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="# " class="nav-link nav-font text-white ">ABOUT ME</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav ml-auto mb-2 mt-2">
+                        <li class="nav-item ">
+                            <a href="# " class="nav-link nav-font text-white ">SIGN UP</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="# " class="nav-link nav-font text-white ">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <!-----------------------------------------------PAGE 1-------------------------------------------------->
+        <div class="main-page page1 d-flex justify-content-center" id="section1">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 d-flex justify-content-center mt-5">
+                        <h1 class="text-white fw-bold">PLAY TRADITIONAL GAME</h1>
+                    </div>
+                    <div class="col-sm-12 d-flex justify-content-center py-4">
+                        <p class="text-white fw-lighter">Experience new traditional game play</p>
+                    </div>
+                    <div class="col-sm-12 d-flex justify-content-center">
+                        <button type="button" class=" btn btn-warning p-3 fw-bold" onclick="window.location.href='/game'">PLAY NOW</button>
+                    </div>
+                    <div class="col-sm-12 d-flex justify-content-center story mt-3">
+                        <span>THE STORY</span>
+                    </div>
+                    <div class="col-sm-12 d-flex justify-content-center">
+                        <a href="#section2" class="btn-scroll mt-0"><i class="fas fa-caret-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------------------------------PAGE 2-------------------------------------------------->
+        <div class="page2 d-flex justify-content-center " id="section2">
+            <div class="container-fluid mt-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p class="text-white fw-normal mt-4">What's so special ?</p>
+                        <h1 class="text-white fw-normal">THE GAMES</h1>
+                    </div>
+
+                    <div class="col-md-6 mt-5">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/img/rockpaperstrategy-1600 1.png" class="d-block w-100" alt="Gunting">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/img/rockpaperstrategy-1600 1.png" class="d-block w-100" alt="Batu">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/img/rockpaperstrategy-1600 1.png" class="d-block w-100" alt="Kertas">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-----------------------------------------------PAGE 3-------------------------------------------------->
+        <div class="page3" id="section3 ">
+            <div class="container-fluid ">
+                <div class="row mr-0 ">
+                    <div class="col-md-5">
+
+                    </div>
+
+                    <div class="col-md-6 mt-5 kolom2">
+                        <div class="col-md-12 d-flex justify-content-start">
+                            <p class="text-white fw-normal mt-5">What's so special ?</p>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-start mb-4 mt-0">
+                            <h1 class="text-white fw-normal p-0">FEATURES</h1>
+                        </div>
+                        <div class="col-md-8 d-flex justify-content-start mt-4">
+                            <ul class="timeline ">
+                                <li class="fill ">
+                                    <h5 class="text-warning ">TRADITIONAL GAME</h5>
+                                    <span class="text-white ">If you miss your childhood, we provide many traditional games here</span>
+                                </li>
+
+                                <li>
+                                    <h5 class="text-warning my-4 ">GAME SUIT</h5>
+                                </li>
+
+                                <li>
+                                    <h5 class="text-warning">TBD</h5>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------------------------------PAGE 4------------------------------------------------>
+        <div class="page4 " id="section4 ">
+            <div class="container-fluid ">
+                <div class="d-flex justify-content-center">
+                    <span class="text-white text-center pt-5 mb-5 ">Can My Computer Run this game?</span>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-12">
+                        <p class="text-white fw-normal my-0 fs-1">SYSTEM</p>
+                    </div>
+                    <div class="col-sm-12 ">
+                        <p class="text-white fw-normal fs-1">REQUIREMENTS</p>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-md-3 col-6  border border-secondary p-3 wrow ">
+                        <h4 class="text-warning ">OS :</h4>
+                        <p class="text-white ">Windows 7 64 bit only (No OSX support at this time) </p>
+                    </div>
+                    <div class="col-md-3 col-6  border border-secondary p-3 wrow ">
+                        <h4 class="text-warning ">PROCESSOR :</h4>
+                        <p class="text-white ">Intel Core 2 Duo @2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-3 col-6  border border-secondary py-3 wrow ">
+                        <h4 class="text-warning ">MEMORY :</h4>
+                        <p class="text-white ">4 GB RAM</p>
+                    </div>
+                    <div class="col-md-3 col-6  border border-secondary py-3 wrow ">
+                        <h4 class="text-warning ">STORAGE :</h4>
+                        <p class="text-white ">8 GB availabel space</p>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-md-6 col-12  border border-secondary p-3 wnrow">
+                        <h4 class="text-warning ">GRAPHICS:</h4>
+                        <p class="text-white ">NVIDIA GeForce GTX 660 2GB or <br> AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-----------------------------------------------PAGE 5-------------------------------------------------->
+        <div class="page5 d-flex justify-content-center " id="section5 ">
+            <div class="container-fluid align-self-center">
+                <div class="row">
+                    <div class="col-md-4 coba align-self-center">
+                        <h2 class="text-white fw-lighter ">TOP SCORES</h2>
+                        <p class="text-white py-3 ">This top score from various games provided <br> on this platform </p>
+                        <button class="btn btn-warning w-50 fw-bold p-3 ">see more</button>
+                    </div>
+                    <div class="col-md-7 ">
+                        <div class="row mt-4 ">
+                            <div class="col-md-11">
+                                <div class="card card1">
+                                    <div class="card-body ">
+                                        <div class="row ">
+                                            <div class="col-sm-2">
+                                                <img src="/img/Ellipse.png " alt="eclipse " class="eclipse ">
+                                                <img src="/img/image 8.jpg " alt="person " class="person ">
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="row ">
+                                                    <div class="col-sm-9 ">
+                                                        <p class="mb-0 name1 text-warning ">Evan Lanthi</p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <i class="fab fa-twitter "></i>
+                                                    </div>
+
+                                                </div>
+
+                                                <p class="mt-0 work1 text-secondary">PC Gamer</p>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <p class="card-text text-white mt-2 mb-1 ">"One of my gaming highlights of the year "</p>
+                                            </div>
+                                        </div>
+                                        <p class="mb-0 text-secondary ">June 18, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ">
+                            <div class="col-md-9 ">
+                                <div class="card d-flex justify-content-start ">
+                                    <div class="card-body ">
+                                        <div class="row ">
+                                            <div class="col-sm-2 ">
+                                                <img src="/img/Ellipse.png " alt="eclipse " class="eclipse ">
+                                                <img src="/img/image.jpg " alt="person " class="person1 ">
+                                            </div>
+                                            <div class="col-sm-9 ">
+                                                <div class="row ">
+                                                    <div class="col-sm-9 ">
+                                                        <p class="mb-0 name1 text-warning ">Jada Griffin</p>
+                                                    </div>
+                                                    <div class="col-sm-3 ml-auto">
+                                                        <i class="fab fa-twitter "></i>
+                                                    </div>
+
+                                                </div>
+
+                                                <p class="mt-0 work1 text-secondary">Nerdreactor</p>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <p class="card-text text-white mt-2 mb-1 ">"The next big thing in the world of streaming and survival games. "</p>
+                                            </div>
+                                        </div>
+
+                                        <p class="mb-0 text-secondary ">July 10, 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ">
+                            <div class="col-md-11">
+                                <div class="card card1">
+                                    <div class="card-body ">
+                                        <div class="row ">
+                                            <div class="col-sm-2">
+                                                <img src="/img/Ellipse.png " alt="eclipse " class="eclipse ">
+                                                <img src="/img/image2.jpg " alt="person " class="person2 ">
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <div class="row ">
+                                                    <div class="col-sm-9 ">
+                                                        <p class="mb-0 name1 text-warning ">Aaron Williams</p>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <i class="fab fa-twitter "></i>
+                                                    </div>
+
+                                                </div>
+
+                                                <p class="mt-0 work1 text-secondary">Uproxx</p>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <p class="card-text text-white mt-2 mb-1 ">"Snoop Dog Playing The Wildly Entertaining 'SOS' Is Ridiculous. "</p>
+                                            </div>
+                                        </div>
+
+                                        <p class="mb-0 text-secondary ">December 24, 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------------------------------PAGE 6-------------------------------------------------->
+        <div class="page6 all-page " id="section6 ">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-md-4 gradient-overlay">
+                        <img src="/img/image4.png " alt="Games ">
+                    </div>
+                    <div class="col-md-6 mt-5 pl-4">
+                        <div class="row mt-5">
+                            <div class="col-md-5 d-flex justify-content-start mt-4">
+                                <span class="text-white">Want to stay in touch?</span>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-md-12 d-flex justify-content-start mb-2">
+                                <p class="text-white fs-1">NEWSLETTER</p>
+                            </div>
+                            <div class="col-md-12 d-flex justify-content-start mb-2">
+                                <p class="text-white mb-2 fs-1">SUBSCRIBE</p>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-12 d-flex justify-content-start my-4">
+                                <p class="text-white fw-normal mb-4 ptxt">In order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don’t spam.</p>
+                            </div>
+                        </div>
+                        <div class="row mt-5 d-flex justify-content-start">
+                            <div class="col-7">
+                                <div class="form-floating ">
+                                    <input type="email " class="form-control bg-dark text-warning border-0 pb-5 w-100" id="floatingInput " placeholder="youremail@binaracademy.com ">
+                                    <label for="floatingInput " class="text-secondary ">Your email address</label>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <button class="btn btn-warning fw-bold p-3 ">Subscribe now</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container-fluid mt-4 ml-4">
+                <div class="d-flex justify-content-end ">
+                    <ul>
+                        <li>
+                            <a href="#section1 ">MAIN</a>
+                        </li>
+                        <li>
+                            <a href="#section2 ">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#section3 ">GAME FEATURES</a>
+                        </li>
+                        <li>
+                            <a href="#section4 ">SYSTEM REQUIREMENTS</a>
+                        </li>
+                        <li>
+                            <a href="#section5 ">QUOTES</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ " target="blank "><i class="fab fa-facebook-f "></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ " target="blank "><i class="fab fa-twitter "></i></a>
+                        </li>
+                        <li class="fa-stack fa-2x ">
+                            <a href="https://www.youtube.com/ " target="blank "><i class="fab fa-youtube text-danger fa-stack-2x "></i> <i class="fas fa-mouse-pointer fa-stack-1x fa-inverse "></i></a>
+                        </li>
+                        <li>
+                            <a href="mailto:# "><i class="fab fa-twitch"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hr ">
+                    <hr>
+                </div>
+                <div class="d-flex ">
+                    <div class="p1 ">
+                        <p> © 2018 Your Games, Inc. All Rights Reserved</p>
+                    </div>
+                    <div class="p2 ">
+                        <p class="text-white p2 "> Privacy Policy | Terms of Services | Code of Conduct </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+    </body>
+
+
+</html>

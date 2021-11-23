@@ -1,0 +1,611 @@
+.page1 h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif !important;
+    line-height: 5rem !important;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.page1 p {
+    letter-spacing: 0.15rem;
+}
+
+.page2 p {
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.page3 p {
+    font-size: 1.5rem !important;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 0 !important;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+nav {
+    opacity: 0.8;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    min-width: 100%;
+}
+
+.nav-font {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.logo-game {
+    margin-left: 5rem !important;
+}
+
+.head-font {
+    font-size: 24px !important;
+}
+
+.main-page {
+    min-height: 100vh;
+    height: 970px;
+    min-width: 100%;
+}
+
+.page1 {
+    background-image: linear-gradient(to bottom, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%), url(../img/Group2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.page1 button {
+    min-width: 15rem;
+    margin-top: 4rem;
+    margin-bottom: 11rem;
+}
+
+.page2 {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgba(255, 181, 72, 0) 0%, rgba(52, 44, 29, 0.80319) 73.22%, #08090A 99.74%), url(../img/bg\ image\ 2.png);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+}
+
+.page2:after {
+    content: '';
+    position: absolute;
+    min-width: 100%;
+    min-height: 100vh;
+    /*top: 960px;*/
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    z-index: 1;
+}
+
+.page2 .container-fluid {
+    z-index: 2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fa-caret-down {
+    font-size: 32px;
+    color: white;
+}
+
+.page1 .container-fluid {
+    padding-top: 14rem;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.carousel-indicators button {
+    max-width: 0.5rem !important;
+    height: 0.5rem !important;
+    border-radius: 100% !important;
+}
+
+.page3 {
+    background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url(../img/bg\ image\ 3.png);
+    min-height: 100vh;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    min-width: 100%;
+}
+
+.bag1 {
+    padding-top: 5rem;
+    padding-right: 20rem;
+}
+
+.bag2 {
+    padding-right: 10rem;
+}
+
+.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline::before {
+    content: ' ';
+    background-color: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    top: 1rem;
+    left: 1.65rem;
+    min-width: 0.1rem;
+    height: 5.7rem;
+}
+
+.timeline>li {
+    padding-left: 1.5rem !important;
+}
+
+.timeline>li::before {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid white;
+    left: 1.2rem;
+    min-width: 1rem;
+    height: 1rem;
+}
+
+.timeline .fill::before {
+    background: white;
+}
+
+.page4 {
+    background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%), url(../img/bg\ image\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.page4 span {
+    font-family: Arial;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.page4 h2 {
+    padding: 3rem 0 1rem 5rem;
+    font-family: Arial;
+    letter-spacing: 0.3rem;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.page4 h4 {
+    font-size: 1.2rem !important;
+}
+
+.page5 {
+    background-image: radial-gradient(70.52% 37.27% at 24.21% 47.47%, rgba(35, 15, 15, 0) 0%, rgba(0, 0, 0, 0) 51.1%, #080A0B 99.74%), url(../img/bg\ image\ 5.png);
+    background-size: cover;
+    min-height: 960.16px;
+    min-width: 100%;
+    padding-bottom: 3rem;
+}
+
+.name1 {
+    font-family: Arial;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2rem;
+}
+
+.work {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8rem;
+    text-align: justified;
+    padding-left: 1rem;
+}
+
+.card-text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #FFFFFF14 !important;
+    margin-top: 1.5rem;
+}
+
+.card .fab {
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.eclipse {
+    position: absolute;
+    top: 0.6rem;
+    left: 1.3rem;
+    z-index: 1;
+}
+
+.person {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.6rem;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.person1 {
+    position: absolute;
+    bottom: 12rem;
+    left: 1rem;
+    max-width: 3.8rem;
+    top: 0.6rem;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.person2 {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.75rem;
+    max-width: 4rem;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.coba {
+    padding-left: 1.5rem !important;
+}
+
+.card1 {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 10rem;
+}
+
+.card2 {
+    margin-left: 5rem;
+}
+
+.page6 {
+    background-color: black;
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.form1 {
+    border-radius: 5px;
+    background: #FFFFFF14;
+    border: none;
+}
+
+.page6 span {
+    font-family: Arial;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.page6 .fs-1 {
+    font-family: Arial;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+.page6 .ptxt {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: left;
+}
+
+.form-floating {
+    padding-bottom: 7rem;
+}
+
+.footer {
+    background-color: black;
+    min-height: 25vh;
+    min-width: 100%;
+    padding-top: 3rem;
+    display: block;
+}
+
+.footer li {
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    letter-spacing: 0.1em;
+    margin-right: 3rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer .fab {
+    color: white;
+    font-size: 16px;
+}
+
+.footer .fas {
+    top: 0.5rem;
+    left: 0.3rem;
+}
+
+.hr {
+    margin: 1rem 3.5rem 0 3.5rem;
+    border: 0;
+    border-top: 1px solid rgb(85, 80, 80);
+    text-align: center;
+}
+
+.p1 {
+    margin-left: 3rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.p2 {
+    margin-right: 1.8rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: right;
+}
+
+.gradient-overlay {
+    position: relative;
+}
+
+.gradient-overlay::after {
+    content: '';
+    position: absolute;
+    min-width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 5rem;
+    background-image: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+}
+
+.gradient-overlay img {
+    max-width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
+
+.carousel {
+    min-width: 100%;
+}
+
+.carousel-inner img {
+    display: block;
+    height: auto;
+    line-height: 1rem;
+    min-width: 100%;
+}
+
+.page6 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.kolom2 {
+    margin-left: 6rem;
+}
+
+.navbar-nav {
+    margin-right: 3rem;
+}
+
+.not-found {
+    padding-top: 13rem;
+}
+
+.error {
+    padding-top: 6rem;
+}
+
+.error h1 {
+    font-size: 14rem;
+}
+
+.error p {
+    letter-spacing: 0.1rem;
+}
+
+
+/* Media Query */
+
+
+/* Small */
+
+@media only screen and (max-width: 576px) {
+    /* Write Something Here*/
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    .page1 h1 {
+        font-size: 1rem;
+        text-align: center;
+        line-height: 0;
+        margin-top: 0;
+    }
+    .page2 .textp2 {
+        margin-top: 6rem;
+    }
+    .page3 .container-fluid {
+        padding-left: 4rem;
+    }
+    .timeline::before {
+        height: 10rem !important;
+    }
+    .page4 span {
+        margin-top: 3rem;
+    }
+    .page5 h2 {
+        margin-top: 5rem;
+    }
+    .card1 {
+        display: flex;
+        justify-content: flex-start;
+        align-self: flex-start;
+        margin-left: 0;
+    }
+    .gradient-overlay::after {
+        content: '';
+        position: absolute;
+        min-width: 75% !important;
+        height: 37vh !important;
+        top: 5rem;
+    }
+    .gradient-overlay img {
+        max-width: 100%;
+        height: 50vh !important;
+        padding-top: 5rem;
+    }
+    .page6 span {
+        margin-top: 0 !important;
+    }
+    .footer li {
+        display: inline;
+    }
+    .name1 {
+        margin-left: 5rem;
+    }
+    .page5 .fab {
+        padding-top: 2.2rem;
+    }
+    .page2:after {
+        min-width: 100%;
+    }
+    .logo-game {
+        margin-left: 3rem !important;
+    }
+    .form-floating {
+        padding-bottom: 0;
+    }
+    .footer ul {
+        margin-bottom: 1rem;
+    }
+    footer {
+        height: 50vh;
+        display: flex;
+        padding: 1rem;
+    }
+    .hr {
+        margin: 0;
+        border: 0;
+        border-top: 1px solid rgb(85, 80, 80);
+        text-align: center;
+    }
+    .page6 button {
+        width: 100% !important;
+        padding: 0.68rem !important;
+    }
+    .p1 {
+        margin-left: 0.1rem;
+    }
+    .p2 {
+        margin-right: 0.5rem;
+    }
+    .timeline::before {
+        height: 6.9rem !important;
+    }
+    .name2 {
+        margin-left: 5rem;
+    }
+    .work {
+        margin-left: 0;
+    }
+    .footer .fas {
+        top: 0.3rem;
+        left: 0.6rem;
+    }
+    .kolom2 {
+        margin-left: 0;
+    }
+    .navbar-nav {
+        margin-left: 1.8rem !important;
+        margin-right: 0;
+    }
+    .not-found p {
+        font-size: 0.8rem;
+    }
+    .error h1 {
+        font-size: 8rem;
+    }
+}

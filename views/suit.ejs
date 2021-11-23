@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./partial/head.ejs") %>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid my-1 d-flex justify-content-start mx-2">
+                <div class="d-flex justify-content-start">
+                    <a href="/"><img src="/img/back.png" alt="back" class="back"></a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <img src="/img/logo 1.png" alt="logo" class="logo">
+                </div>
+                <div class="d-flex justify-content-end">
+                    <a class="navbar-brand text-warning fw-bold rock-paper" href="#">ROCK PAPER SCISSORS</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="games-page">
+            <div class="container-fluid d-flex justify-content-center ">
+                <div class="d-flex justify-content-start games">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center ">
+                            <h4 class="fw-bold">PLAYER 1</h4>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center ">
+                            <div class="pilih  d-flex">
+                                <img src="/img/batu 1.png" alt="batu" class="batu">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="pilih  d-flex">
+                                <img src="/img/kertas 1.png" alt="kertas" class="kertas">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="pilih  d-flex">
+                                <img src="/img/gunting 1.png" alt="gunting" class="gunting">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between txt-games">
+                    <div class="row">
+                        <div class="hasilGame">
+                            <div class="col-12 d-flex justify-content-center ">
+                                <div class="align-self-center versus">
+                                    <h1 class="text-danger fw-bold">VS</h1>
+                                </div>
+
+                                <div class="align-self-center player-win win d-none">
+                                    <h2 class="text-white text-center fw-bold my-2">PLAYER 1 WIN</h2>
+                                </div>
+
+                                <div class="align-self-center com-win win d-none">
+                                    <h2 class="text-white text-center fw-bold my-2">COM WIN</h2>
+                                </div>
+
+                                <div class="align-self-center draw d-none">
+                                    <h2 class="text-white text-center fw-bold  my-3">DRAW</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <button type="reset" class="refreshButton"><i class="fas fa-sync-alt text-dark text-center "></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="d-flex justify-content-end games ">
+                    <div class="row ">
+                        <div class="col-12 d-flex justify-content-center ">
+                            <h4 class="fw-bold ">COM</h4>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center ">
+                            <div class="is-com is-com-batu pilih d-flex">
+                                <img src="/img/batu 1.png" alt="batu" class="batu mx-auto">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="is-com is-com-kertas  pilih d-flex">
+                                <img src="/img/kertas 1.png" alt="kertas" class="kertas mx-auto">
+                            </div>
+                        </div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="is-com is-com-gunting pilih d-flex">
+                                <img src="/img/gunting 1.png" alt="gunting" class="gunting mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+
+        <script src="/js/suit.js"></script>
+
+    </body>
+
+</html>
